@@ -10,8 +10,7 @@ const HomePage = () => (
                 </div>
             </div>
         </div>
-    </div>
-    <div className = 'homepage'>
+
         <div className = 'directory-menu'>
             <div className ='menu-item'>
                 <div className='content'>
@@ -20,8 +19,7 @@ const HomePage = () => (
                 </div>
             </div>
         </div>
-    </div>
-    <div className = 'homepage'>
+
         <div className = 'directory-menu'>
             <div className ='menu-item'>
                 <div className='content'>
@@ -30,8 +28,7 @@ const HomePage = () => (
                 </div>
             </div>
         </div>
-    </div>
-    <div className = 'homepage'>
+
         <div className = 'directory-menu'>
             <div className ='menu-item'>
                 <div className='content'>
@@ -40,8 +37,7 @@ const HomePage = () => (
                 </div>
             </div>
         </div>
-    </div>
-    <div className = 'homepage'>
+
         <div className = 'directory-menu'>
             <div className ='menu-item'>
                 <div className='content'>
