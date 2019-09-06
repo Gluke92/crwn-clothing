@@ -1,13 +1,13 @@
 const INITIAL_STATE = {
-    cart: null
+    hidden: true
 }
 
 const cartReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
-        case 'UPDATE_CART':
+        case 'TOGGLE_CART_HIDDEN':
             return {
                 ...state,
-                cart: action.payload
+                hidden: !state.hidden
             }
             default:
                 return state;
