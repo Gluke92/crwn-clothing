@@ -130,8 +130,8 @@ const SHOP_DATA = [{
             },
             {
                 id: 20,
-                name: 'Grey Jean Jacket',
-                imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+                name: 'Black Leather Jacket',
+                imageUrl: 'https://i.ibb.co/dfTmtNp/adrian-ordonez-P0-W27-GRvyww-unsplash.jpg',
                 price: 90
             },
             {
@@ -154,8 +154,8 @@ const SHOP_DATA = [{
         routeName: 'womens',
         items: [{
                 id: 23,
-                name: 'Blue Tanktop',
-                imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+                name: 'Blue Shirt',
+                imageUrl: 'https://i.ibb.co/SvZwDpk/brooke-cagle-UE2-PZg-PB7-JA-unsplash.jpg',
                 price: 25
             },
             {
