@@ -1,4 +1,5 @@
-const SHOP_DATA = [{
+const SHOP_DATA = {
+    hats: {
         id: 1,
         title: 'Hats',
         routeName: 'hats',
@@ -58,7 +59,7 @@ const SHOP_DATA = [{
             }
         ]
     },
-    {
+    sneakers: {
         id: 2,
         title: 'Sneakers',
         routeName: 'sneakers',
@@ -112,7 +113,7 @@ const SHOP_DATA = [{
             }
         ]
     },
-    {
+    jackets: {
         id: 3,
         title: 'Jackets',
         routeName: 'jackets',
@@ -148,7 +149,7 @@ const SHOP_DATA = [{
             }
         ]
     },
-    {
+    womens: {
         id: 4,
         title: 'Womens',
         routeName: 'womens',
@@ -178,14 +179,14 @@ const SHOP_DATA = [{
             },
             {
                 id: 27,
-                name: 'Striped Sweater',
-                imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
+                name: 'Orange Sweater',
+                imageUrl: 'https://i.ibb.co/12T9LyR/azamat-zhanisov-Pg-Bauc-AZeg-unsplash.jpg',
                 price: 45
             },
             {
                 id: 28,
                 name: 'Yellow Track Suit',
-                imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
+                imageUrl: 'https://i.ibb.co/wsqXX5N/roland-denes-QT94-VAhgzs-E-unsplash.jpg',
                 price: 135
             },
             {
@@ -196,7 +197,7 @@ const SHOP_DATA = [{
             }
         ]
     },
-    {
+    mens: {
         id: 5,
         title: 'Mens',
         routeName: 'mens',
@@ -210,7 +211,7 @@ const SHOP_DATA = [{
                 id: 31,
                 name: 'Floral T-shirt',
                 imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-                price: 20 
+                price: 20
             },
             {
                 id: 32,
@@ -238,6 +239,6 @@ const SHOP_DATA = [{
             }
         ]
     }
-];
+};
 
 export default SHOP_DATA;
